@@ -1,0 +1,27 @@
+{
+  "name": "junior-be-test",
+  "version": "1.0.0",
+  "description": "Junior BE Test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon --exec \"node server.js\""
+  },
+  "keywords": [
+    "Junior",
+    "BE",
+    "Test"
+  ],
+  "author": "Marulli Wijanarko",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.18.2",
+    "mongoose": "^5.13.5",
+    "mongoose-aggregate-paginate-v2": "^1.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.10"
+  }
+}
